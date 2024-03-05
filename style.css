@@ -12,7 +12,7 @@ body{
     width: 90%;
     max-width: 470px;
     /* background: rgb(2, 189, 111); */
-    background: radial-gradient(circle, rgba(58, 180, 113, 0.704) 0%, rgba(29, 253, 197, 0.425) 50%, rgb(58, 180, 84) 100%);   
+    background: radial-gradient(circle, rgba(58, 180, 58, 0.704) 0%, rgba(29, 253, 186, 0.425) 50%, rgb(58, 180, 88) 100%);   
     margin: 40px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
@@ -88,4 +88,13 @@ body{
 }
 .ppp{
     font-weight: 400;
+}
+.weather{
+    display: none;
+}
+.error {
+    margin-top: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: none;
 }
